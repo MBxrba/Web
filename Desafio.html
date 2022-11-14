@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1 style="text-align:center">Prova de Conhecimentos Gerais</h1>
+<p> Responda todas as questões, utilize rascunhos em papel para realizar os cálculos. Os rascunhos serão recolhidos pela professora após a quarentena.</p>
+</head>
+
+<body>
+<form action=/action_page.php>
+<fieldset>
+<legend>Informações do Aluno</legend>
+<input type="text" id="nome" name="nome" placeholder="Digite seu nome:"><br><br>
+<input type="number" id="grupo" name="grupo" placeholder="Nº de pessoas no grupo:"><br><br>
+<input type="email" id="email" name="email" placeholder="Digite seu e-mail:"><br><br>
+    <label for="nascimento">Data de Nascimento:</label><br>
+    <input type="date" id="nascimento" name="nascimento"><br><br>
+    <label for="senha">Digite uma senha para acessar os dados da pesquisa anteriormente:<br>
+    <input type="password" id="senha" name="senha"><br>
+</fieldset>
+
+<fieldset>
+<legend>Matemática</legend>
+<label for="soma">3 + 3=</label>
+    <input type="number" id="soma" name="soma"><br><br>
+    <label for="divisao">10 / 3=</label>
+    <input type="number" id="divisao" name="divisao"><br><br>
+    <label for="mult">5 * 2=</label>
+    <input type="number" id="mult" name="mult"><br><br>
+    <label for="dificuldade">Essa tarefa foi difícil?</label>
+    <input type="range" id="dificuldade" name="dificuldade"><br><br>
+</fieldset>
+
+<fieldset>
+<legend>Opinião quanto a utilização</legend>
+<img src="https://fundacaotelefonicavivo.org.br/wp-content/uploads/2021/05/lingua-portuguesa-1200px-facebook.jpg" style="width: 200px; height: 100px"><br><br>
+    <label for="p1">Na frase "Eu sou bonito" o sujeito é:</label><br>
+    <input type="radio" id="p1" name="p1" value="Brad Pitt">
+    <label for="bradpitt">Brad Pitt</label><br>
+    <input type="radio" id="p1" name="p1" value="João da Padaria">
+    <label for="joao">João da Padaria</label><br>
+    <input type="radio" id="p1" name="p1" value="Você mesmo">
+    <label for="eu">Você mesmo</label><br>
+    <input type="radio" id="p1" name="p1" value="Meus pais">
+    <label for="pais">Meus pais</label><br>
+    <input type="radio" id="p1" name="p1" value="eu">
+    <label for="eu">Eu</label><br><br>
+   
+    <label for="p2">Complete a frase: "Filho de peixinho, peixinho ___"</label><br>
+    <input type="checkbox" id="p2" name="p2" value="É">
+    <label for="e">É</label><br>
+    <input type="checkbox" id="p2" name="p2" value="Tem">
+    <label for="tem">Tem</label><br>
+    <input type="checkbox" id="p2" name="p2" value="Verde">
+    <label for="verde">Verde</label><br>
+    <input type="checkbox" id="p2" name="p2" value="Bonito">
+    <label for="bonito">Bonito</label><br>
+    <input type="checkbox" id="p2" name="p2" value="Maria">
+    <label for="maria">Maria</label><br>
+</fieldset>
+
+<fieldset>
+<legend>Dê uma nota para sua professora</legend>
+<label for="nota">Sua professora explica bem a matéria?</label><br>
+    <input type="range" id="nota" name="nota"><br><br>
+</fieldset>
+
+<fieldset>
+<legend>Opiniões</legend>
+<label for="opiniao">Digite a sua opinião sobre a disciplina:</label><br><br><br><br><br><br><br><br>
+</fieldset>
+<br>
+<button type="input">Gravar respostas.</button>
+</body>

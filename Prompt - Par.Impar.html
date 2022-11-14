@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="myFunction()">Clique aqui.</button>
+
+<p id="valor"></p>
+
+<script>
+function myFunction() {
+	var n1 = prompt("Informe o primeiro número:");
+    if (n1%2==0) {
+    document.getElementById("valor").innerHTML = "Par";
+    }
+    else {
+    document.getElementById("valor").innerHTML = "Impar"
+	}
+}
+</script>
+
+</body>
+</html>

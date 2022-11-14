@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="myFunction()">Clique aqui.</button>
+
+<p id="valor"></p>
+
+<script>
+function myFunction() {
+	var n1 = parseInt(prompt("Informe o primeiro número:"));
+	var n2 = parseInt(prompt("Informe o segundo número:"));
+    if (n1 > n2)
+    {
+    document.getElementById("valor").innerHTML = "Maior = " + n1 + "! Menor = " + n2 + "!";
+	}
+    else
+    {
+    document.getElementById("valor").innerHTML = "Maior = " + n2 + "! Menor = " + n1 + "!";
+    }
+}
+</script>
+</body>
+</html>
+
